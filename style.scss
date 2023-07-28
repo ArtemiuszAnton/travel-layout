@@ -1,0 +1,198 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-style: normal;
+}
+
+body {
+    margin: auto;
+    width: 1220px;
+    // position: relative;
+    // z-index: 2;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+
+    .img-logo {
+        background-image: url(./assets/logo.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 40px;
+        width: 40px;
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        gap: 34px;
+        align-items: center;
+
+        p {
+            color: #B8BECD;
+            font: 400 16px Inter;
+            letter-spacing: 0.01em;
+
+            &:hover {
+                color: #202336;
+                font: 500 16px Inter;
+                letter-spacing: 0;
+            }
+        }
+
+        .btn1 {
+            border-radius: 8px;
+            border: 1px solid #FB8F1D;
+            text-align: center;
+            color: #FB8F1D;
+            font: 500 15px Inter;
+            padding: 10px 46px;
+
+            &:hover {
+                position: relative;
+                top: 1px;
+            }
+        }
+
+        .btn2 {
+            border-radius: 8px;
+            background: #FB8F1D;
+            color: #FFF;
+            font: 500 15px Inter;
+            text-align: center;
+            padding: 10px 46px;
+
+            &:hover {
+                position: relative;
+                top: 1px;
+            }
+        }
+
+    }
+}
+
+.preview {
+    margin-top: 114px;
+    display: flex;
+    justify-content: space-between;
+
+    .info {
+        display: flex;
+        flex-direction: column;
+        width: 500px;
+
+        h1 {
+            color: #202336;
+            font: 700 64px Playfair Display;
+            width: 356px;
+        }
+
+        p {
+            color: #202336;
+            font: 600 22px Inter;
+            margin-top: 74px;
+            margin-bottom: 71px;
+        }
+
+        .inputs {
+            display: flex;
+            flex-wrap: wrap;
+            color: #4A4C53;
+            font: 400 15px Inter;
+            gap: 30px;
+
+            input {
+                width: 210px;
+                border-radius: 6px;
+                border: 0.8px solid #AFB0B9;
+                padding: 15px;
+            }
+        }
+    }
+
+    .btn {
+        border-radius: 8px;
+        background: #FB8F1D;
+        text-align: center;
+        padding: 13px 58px;
+        width: 180px;
+        color: #FFF;
+        font: 700 17px Inter;
+        margin-top: 50px;
+
+        &:hover {
+            position: relative;
+            top: 1px;
+        }
+    }
+
+    .img-travel {
+        background-image: url(./assets/thousand-01\ 1.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 506px;
+        height: 483px;
+    }
+}
+
+.more-info {
+    margin-top: 109px;
+    display: flex;
+    justify-content: space-between;
+
+    .img-travel-2 {
+        background-image: url(./assets/Thousand-02\ 1.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 645px;
+        height: 524px;
+    }
+
+    .right {
+        width: 450px;
+
+        h3 {
+            color: #000;
+            font: 700 36px Playfair Display;
+        }
+
+        p {
+            color: #7D7987;
+            font: 300 17px Inter;
+            line-height: 30px;
+            margin-top: 25px;
+        }
+
+        .btn {
+            border-radius: 8px;
+            background: #FB8F1D;
+            text-align: center;
+            padding: 13px 38px;
+            width: 164px;
+            color: #FFF;
+            font: 600 16px Inter;
+            margin-top: 39px;
+
+            &:hover {
+                position: relative;
+                top: 1px;
+            }
+        }
+
+
+    }
+}
+
+footer {
+    background: #F9F9FB;
+    height: 408px;
+    width: 100vw;
+    margin-top: 192px;
+    // box-sizing: border-box;
+    // position: relative;
+    left: 0;
+    bottom: 0;
+}
