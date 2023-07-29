@@ -191,6 +191,6 @@ footer {
   height: 408px;
   width: 100vw;
   margin-top: 192px;
-  left: 0;
-  bottom: 0;
+  position: relative;
+  right: 120px;
 }

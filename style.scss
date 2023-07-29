@@ -8,8 +8,6 @@
 body {
     margin: auto;
     width: 1220px;
-    // position: relative;
-    // z-index: 2;
 }
 
 header {
@@ -191,8 +189,9 @@ footer {
     height: 408px;
     width: 100vw;
     margin-top: 192px;
-    // box-sizing: border-box;
-    // position: relative;
-    left: 0;
-    bottom: 0;
+    position: relative;
+    right: 120px;
+
+    
+  
 }
