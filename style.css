@@ -6,7 +6,7 @@
   font-style: normal;
 }
 
-body {
+.top-side {
   margin: auto;
   width: 1220px;
 }
@@ -189,8 +189,59 @@ header nav .btn2:hover {
 footer {
   background: #F9F9FB;
   height: 408px;
-  width: 100vw;
   margin-top: 192px;
-  position: relative;
-  right: 120px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+footer p {
+  color: #848484;
+  font: 300 18px Inter;
+  line-height: 28px;
+}
+footer .img-logo {
+  background-image: url(./assets/logo.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 40px;
+  width: 40px;
+  margin-top: 87px;
+}
+footer .left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+footer .left .plan-info {
+  width: 265px;
+  margin-top: 22px;
+}
+footer .left .trade-mark {
+  margin-top: 45px;
+}
+footer .right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 720px;
+  margin-top: 87px;
+}
+footer .right h4 {
+  color: #000;
+  font: 700 19px Inter;
+}
+footer .right p {
+  line-height: 38px;
+}
+footer .right p:hover {
+  color: #000;
 }

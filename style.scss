@@ -5,7 +5,7 @@
     font-style: normal;
 }
 
-body {
+.top-side {
     margin: auto;
     width: 1220px;
 }
@@ -187,11 +187,63 @@ header {
 footer {
     background: #F9F9FB;
     height: 408px;
-    width: 100vw;
+    // width: 100vw;
     margin-top: 192px;
-    position: relative;
-    right: 120px;
+    // position: relative;
+    // right: 119px;
+    // left: 0;
+    display: flex;
+    justify-content: space-around;
 
-    
-  
+    p {
+        color: #848484;
+        font: 300 18px Inter;
+        line-height: 28px;
+    }
+
+    .img-logo {
+        background-image: url(./assets/logo.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 40px;
+        width: 40px;
+        margin-top: 87px;
+    }
+
+    .left {
+        display: flex;
+        flex-direction: column;
+
+        .plan-info {
+            width: 265px;
+            margin-top: 22px;
+        }
+
+        .trade-mark {
+            margin-top: 45px;
+        }
+    }
+
+    .right {
+
+        display: flex;
+        justify-content: space-between;
+        width: 720px;
+        margin-top: 87px;
+
+        h4 {
+            color: #000;
+            font: 700 19px Inter;
+        }
+
+        p {
+            line-height: 38px;
+
+            &:hover {
+                color: #000;
+            }
+        }
+    }
+
+
 }
