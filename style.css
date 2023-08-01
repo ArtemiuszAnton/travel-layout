@@ -60,6 +60,7 @@ header nav .btn1 {
 header nav .btn1:hover {
   position: relative;
   top: 1px;
+  background-color: #ffedda;
 }
 header nav .btn2 {
   border-radius: 8px;
@@ -72,6 +73,7 @@ header nav .btn2 {
 header nav .btn2:hover {
   position: relative;
   top: 1px;
+  background-color: #ee8c23;
 }
 
 .preview {
@@ -133,6 +135,7 @@ header nav .btn2:hover {
 .preview .btn:hover {
   position: relative;
   top: 1px;
+  background-color: #ee8c23;
 }
 .preview .img-travel {
   background-image: url(./assets/thousand-01\ 1.png);
@@ -184,6 +187,7 @@ header nav .btn2:hover {
 .more-info .right .btn:hover {
   position: relative;
   top: 1px;
+  background-color: #ee8c23;
 }
 
 footer {

@@ -1,9 +1,12 @@
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-style: normal;
 }
+
+$primery-color: #FB8F1D;
 
 .top-side {
     margin: auto;
@@ -43,21 +46,22 @@ header {
 
         .btn1 {
             border-radius: 8px;
-            border: 1px solid #FB8F1D;
+            border: 1px solid $primery-color;
             text-align: center;
-            color: #FB8F1D;
+            color: $primery-color;
             font: 500 15px Inter;
             padding: 10px 46px;
 
             &:hover {
                 position: relative;
                 top: 1px;
+                background-color: #ffedda;
             }
         }
 
         .btn2 {
             border-radius: 8px;
-            background: #FB8F1D;
+            background: $primery-color;
             color: #FFF;
             font: 500 15px Inter;
             text-align: center;
@@ -66,6 +70,7 @@ header {
             &:hover {
                 position: relative;
                 top: 1px;
+                background-color: #ee8c23;
             }
         }
 
@@ -113,7 +118,7 @@ header {
 
     .btn {
         border-radius: 8px;
-        background: #FB8F1D;
+        background: $primery-color;
         text-align: center;
         padding: 13px 58px;
         width: 180px;
@@ -124,6 +129,7 @@ header {
         &:hover {
             position: relative;
             top: 1px;
+            background-color: #ee8c23;
         }
     }
 
@@ -166,7 +172,7 @@ header {
 
         .btn {
             border-radius: 8px;
-            background: #FB8F1D;
+            background: $primery-color;
             text-align: center;
             padding: 13px 38px;
             width: 164px;
@@ -177,6 +183,7 @@ header {
             &:hover {
                 position: relative;
                 top: 1px;
+                background-color: #ee8c23;
             }
         }
 
